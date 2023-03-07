@@ -1,0 +1,41 @@
+.QuestionOptionButton {
+    box-sizing: border-box;
+    width: 80%;
+    height: 40px;
+    margin: 5px auto;
+    background-color: #faf8f5;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 5px;
+    border: 3px solid #596275;
+    border-radius: 5px;
+
+    transition: background-color ease-in-out 0.5s;
+}
+
+.QuestionOptionButton:hover {
+    border-width: 4px;
+    border-color: #303952;
+}
+
+.correct{
+    border-color: green;
+    background-color: #c4d9bf;
+    color: black;
+}
+
+.incorrect{
+    border-color: red;
+    background-color: #fcbcbb;
+    color: black;
+}
+
+.correct:hover{
+    border-width: 3px;
+    border-color: green;
+
+}
+.incorrect:hover{
+    border-width: 3px;
+    border-color: red;
+}

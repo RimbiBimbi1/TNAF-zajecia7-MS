@@ -1,0 +1,14 @@
+.Quiz{
+    display: flex;
+    flex-direction: column;
+
+
+    width: clamp(300px,800px, 100%);
+    padding: 10px;
+    margin:auto;
+
+    background-color: #d9d1b6;
+
+    border-radius: 5px;
+
+}

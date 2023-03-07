@@ -1,0 +1,24 @@
+.Question{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.divider{
+    flex-basis: 0;
+    content: '';
+    width: 0;
+    height: 100%;
+    border: 1px black solid;
+    box-sizing: border-box;
+}
+
+.questionText{
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+.questionOptions{
+    flex-basis: 50% ;
+    box-sizing: border-box;
+}
